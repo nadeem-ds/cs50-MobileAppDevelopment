@@ -54,4 +54,13 @@ console.log(o3);
 console.log(o3.address);     //access object inside it
 console.log(o3.address.houseno);      //access value inside the obj presetn
 
+const o4 = {
+    a:"a",
+    b:"b"
+}
 
+// console.log(o4);
+const o5 =o4;
+o4.a="New value";
+console.log(o5);
+console.log(o4);
