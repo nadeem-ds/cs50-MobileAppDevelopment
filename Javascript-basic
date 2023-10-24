@@ -34,3 +34,24 @@ const o2 = {
 console.log(o2);
 o2.greeting() //function execute
 
+
+
+const o3 = {
+    firstName : "Samir",
+    lastName : "Ahmad",
+    ispresent : true,
+    greeting : function(){
+        console.log("we can also create an object and put value inside it")
+    },
+    address:{
+        houseno:12,
+        street:"New holland",
+        pincode:11052
+    }
+}
+
+console.log(o3);
+console.log(o3.address);     //access object inside it
+console.log(o3.address.houseno);      //access value inside the obj presetn
+
+
