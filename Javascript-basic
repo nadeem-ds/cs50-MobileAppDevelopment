@@ -1,0 +1,23 @@
+//how many to create object and append value inside it
+const o = new Object();
+o.firstName = "Nadeeem";
+o.lastName = "Anwar";
+o.ispresent=true;
+o.greeting = function(){console.log("this is function inside the obj")}
+
+console.log(o);
+o.greeting()        //function execute
+// console.log();
+
+
+const o1 = {};
+o1.firstName = "Khan";
+o1["lastName"] = "sadab";
+const key = "ispresent";
+o1[key]= true;
+o1["greeting"] = function(){
+    console.log("This is also a function inside the object");
+}
+console.log(o1);
+o1.greeting() //function execute
+
