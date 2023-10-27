@@ -89,3 +89,8 @@ console.log(b);
 
 3.Global scope
 
+// If i will declare inside the file i can that varibale anywhere inside the file.
+suppose i have a file index.js and i have created a variable var c=10;
+It means varibale c is global and i can access c anywhere in our file inside the function , indside the block scope anywhere.
+
+
