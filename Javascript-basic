@@ -64,3 +64,16 @@ const o5 =o4;
 o4.a="New value";
 console.log(o5);
 console.log(o4);
+
+//scope chain
+There are 3 types of scope in javascript
+1. block scope
+{
+//whatever i will declare here i can only access within this block.
+let a =20;
+console.log(a);
+//i can access a only inside this.
+}
+2.function scope
+3.Global scope
+
