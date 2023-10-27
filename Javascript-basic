@@ -67,13 +67,25 @@ console.log(o4);
 
 //scope chain
 There are 3 types of scope in javascript
+
 1. block scope
+
 {
 //whatever i will declare here i can only access within this block.
 let a =20;
 console.log(a);
 //i can access a only inside this.
 }
+
+
 2.function scope
+
+function scope(){
+//i can access this anywhere inside this function but i can not access this after this function
+let b=12;
+console.log(b);
+}
+
+
 3.Global scope
 
