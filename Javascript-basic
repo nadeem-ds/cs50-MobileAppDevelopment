@@ -93,4 +93,17 @@ console.log(b);
 suppose i have a file index.js and i have created a variable var c=10;
 It means varibale c is global and i can access c anywhere in our file inside the function , indside the block scope anywhere.
 
+// hoisting
 
+//calling a calling beore declaration
+console.log(a);
+
+console.log(b);
+
+console.log(c);
+
+var a =10;
+let b=20;
+const c=30;
+
+console.log(a,b,c);
