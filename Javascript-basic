@@ -107,3 +107,31 @@ let b=20;
 const c=30;
 
 console.log(a,b,c);
+
+
+
+//hoisting example on function
+
+//calling a function before the initilization
+checkhosting();
+
+function checkhosting(){
+    console.log("function is hoisted");
+}
+
+//it will give error
+isthishoisted();        //this will give reference error
+isthishoisted1();       //this will give reference error
+isthishoisted2();       //this will give type error because isthishoisted2 varible is created and till executation it is not a function
+
+const isthishoisted = function(){
+    console.log("is this hoisted")
+}
+let isthishoisted1 = function(){
+    console.log("is this hoisted or not")
+}
+var isthishoisted2 = function(){
+    console.log("is this hoisted or not with var")
+}
+// isthishoisted();    //it will work fine
+
