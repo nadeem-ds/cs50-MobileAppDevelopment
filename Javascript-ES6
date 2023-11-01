@@ -1,1 +1,28 @@
 Javascript ES6
+
+// Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+
+console.log("Welcome to Programiz!");
+
+function makeArray(){
+    const arr = [];
+    // console.log("first")
+    for(var i=0;i<5;i++){
+        // console.log(i);
+        arr.push(function (){
+            console.log(i);
+        })
+    }
+    return arr;
+}
+
+const newarr = makeArray();
+newarr[0]();
+
+
+//closure example
+
+function exampleClosure(){
+    const mess
+}
